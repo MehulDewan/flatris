@@ -6,9 +6,9 @@
 trigger:
 - master
 
-pool:
+pool: MyComputerAgent
   #vmImage: ubuntu-latest
-  vmImage: default
+  #vmImage: MyComputerAgent
 
 steps:
 - task: NodeTool@0
